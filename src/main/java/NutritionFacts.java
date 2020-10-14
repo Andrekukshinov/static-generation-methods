@@ -58,6 +58,7 @@ public class NutritionFacts {
 	   carbohydrate = builder.carbohydrate;
     }
     public static void main(String[] args) {
+	   System.out.println();
 	   NutritionFacts cocaCola = new NutritionFacts.Builder(240, 8)
 			 .calories(100)
 			 .sodium(35)
